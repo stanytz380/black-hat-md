@@ -76,15 +76,15 @@ function setupConsoleFilters() {
 setupConsoleFilters();
 
 const createContext = async (userJid, options = {}) => {
-    const botName = (await getSetting("BOT_NAME")) || "𝐁𝐋𝐀𝐂𝐊 𝐇𝐀𝐓-𝐌𝐃";
+    const botName = (await getSetting("BOT_NAME")) || "MIA🍑KHALIFA";
     const botPic =
         (await getSetting("BOT_PIC")) ||
-        "https://www.image2url.com/r2/default/images/1776338825845-caa56d77-b8dd-46d7-8380-753c6519a578.jpg";
+        "https://raw.githubusercontent.com/stanytz378/stanyimagesservers/refs/heads/main/IMG_3086.jpeg";
     const newsletterJid =
-        (await getSetting("NEWSLETTER_JID")) || "120363422524788798@newsletter";
+        (await getSetting("NEWSLETTER_JID")) || "120363404317544295@newsletter";
     const newsletterUrl =
         (await getSetting("NEWSLETTER_URL")) ||
-        "https://whatsapp.com/channel/0029Vb73SRl1CYoLWtyr4u1X";
+        "https://whatsapp.com/channel/0029Vb7fzu4EwEjmsD4Tzs1p";
 
     return {
         contextInfo: {
@@ -101,7 +101,7 @@ const createContext = async (userJid, options = {}) => {
             },
             externalAdReply: {
                 title: options.title || botName,
-                body: options.body || "Powered by 𝑨𝒏𝒐𝒏𝒚𝒎𝒐𝒖𝒔 𝒖𝒔𝒆𝒓🥷",
+                body: options.body || "STANY TZ",
                 thumbnailUrl: botPic,
                 mediaType: 1,
                 mediaUrl: options.mediaUrl || botPic,
@@ -114,12 +114,12 @@ const createContext = async (userJid, options = {}) => {
 };
 
 const createContext2 = async (userJid, options = {}) => {
-    const botName = (await getSetting("BOT_NAME")) || "𝐁𝐋𝐀𝐂𝐊 𝐇𝐀𝐓-𝐌𝐃";
+    const botName = (await getSetting("BOT_NAME")) || "MIA🍑KHALIFA";
     const botPic =
         (await getSetting("BOT_PIC")) ||
-        "https://www.image2url.com/r2/default/images/1776338825845-caa56d77-b8dd-46d7-8380-753c6519a578.jpg";
+        "https://raw.githubusercontent.com/stanytz378/stanyimagesservers/refs/heads/main/IMG_3086.jpeg";
     const newsletterJid =
-        (await getSetting("NEWSLETTER_JID")) || "120363422524788798@newsletter";
+        (await getSetting("NEWSLETTER_JID")) || "120363404317544295@newsletter";
 
     return {
         contextInfo: {
@@ -133,7 +133,7 @@ const createContext2 = async (userJid, options = {}) => {
             },
             externalAdReply: {
                 title: options.title || botName,
-                body: options.body || "Powered by 𝑨𝒏𝒐𝒏𝒚𝒎𝒐𝒖𝒔 𝒖𝒔𝒆𝒓🥷",
+                body: options.body || "STANY TZ",
                 thumbnailUrl: botPic,
                 mediaType: 1,
                 showAdAttribution: true,
